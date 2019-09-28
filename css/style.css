@@ -95,6 +95,7 @@ header nav {
     text-transform: uppercase;
     color: #777;
     font-size: 2.5rem;
+    font-family: Montserrat;
 }
 
 .about {
@@ -388,6 +389,7 @@ header nav {
     background-color: #f9f9f9;
     padding: 1rem 0;
     position: relative;
+    max-width: 50vw;
 }
 
 .clients__quote::before {
@@ -692,6 +694,9 @@ footer p {
     .nav {
         display: flex;
         padding: 0 4rem 0 0;
+    }
+    header {
+        padding: 8vh 10vw
     }
     header nav input, header nav label {
         display: none;
